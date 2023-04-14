@@ -1,0 +1,39 @@
+body{
+background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm314-adj-04_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a2c792e8e3eea648061842f491c9a195)
+}
+
+#title{
+  font-size:30px
+}
+
+.project{
+  background-color:red
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  height:500px
+}
+
+
+.clearfix{
+  margin-top:50px;
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.poke{
+  position:relative;
+  left:-10px
+}
